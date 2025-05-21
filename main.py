@@ -181,13 +181,13 @@ if __name__ == "__main__":
     opt.cam_rotate_180 = True
     
     opt.show_img = True
-#     opt.display_img = True
-#     opt.save_img = True
-#     opt.save_cropped = True
-#     opt.save_input = True
-#     opt.log_level = 'DEBUG'
-#     opt.img_source = 'data/test/test1.jpg'
-#     opt.video_capture_source = './data/test/videorec_28112022194352.mp4'
+    opt.display_img = True
+    opt.save_img = True
+    opt.save_cropped = True
+    opt.save_input = True
+    opt.log_level = 'DEBUG'
+    opt.img_source = 'data/test/test1.jpg'
+    opt.video_capture_source = './data/test/videorec_28112022194352.mp4'
 
     main(opt)
     
